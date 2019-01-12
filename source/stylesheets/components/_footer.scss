@@ -1,0 +1,30 @@
+.hoxton-footer {
+  height: 300px;
+  width: 100%;
+  background-color: $secondary-color;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &_left-part {
+      & span {
+        background-image: url('https://s3.eu-west-3.amazonaws.com/rendezvoushotel/whitelogo.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 200px;
+        padding: 90px;
+        margin-left: 60px;
+      }
+  }
+
+  &_pink-label {
+    position: absolute;
+    bottom: 10%;
+    height: 10px;
+    width: 100%;
+    background-color: $primary-color;
+  }
+
+}
