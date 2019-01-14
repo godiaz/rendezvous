@@ -15,6 +15,7 @@
     margin-bottom: 30px;
     margin-top: 0px;
     color: rgba(0,0,0,0.7);
+    font-family: 'Open Sans', sans-serif;
   }
   h2 {
     font-size: 17px;
@@ -29,5 +30,57 @@
   }
   .fa-heart {
     color: #D23333;
+  }
+}
+
+.unclas-image {
+  width: 100vw;
+  margin-top: 168px;
+}
+
+.paragraph {
+  text-align: center;
+  border-top: 8px solid $primary-color;
+  padding-top: 30px;
+  margin-bottom: 60px;
+}
+
+.headers {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .unclas-image {
+    margin-top: 128px;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  p {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .unclas-image {
+    margin-top: 128px;
+  }
+  h1 {
+    font-size: 22px
+  }
+  p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .unclas-image {
+    margin-top: 128px;
+  }
+  h1 {
+    font-size: 18px
+  }
+  p {
+    font-size: 10px;
   }
 }
