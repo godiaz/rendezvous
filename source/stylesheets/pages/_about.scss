@@ -99,9 +99,19 @@
   float:left;
   height: calc(35vw * 0.726);
   width:35vw;
-  float:right;
-  background-image: url("/images/cartagena.png");
   background-size:cover;
+}
+
+.content {
+  padding: 10px;
+}
+
+.cartagena {
+  background-image: url("/images/cartagena.png");
+}
+
+.lisbon {
+  background-image: url("/images/lisbon.png");
 }
 
 .fluid-cont {
