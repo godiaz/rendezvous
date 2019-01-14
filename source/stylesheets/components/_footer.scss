@@ -8,14 +8,13 @@
   justify-content: space-between;
 
   &_left-part {
+
       & span {
         background-image: url('https://s3.eu-west-3.amazonaws.com/rendezvoushotel/whitelogo.png');
         background-size: contain;
         background-repeat: no-repeat;
         height: 200px;
         width: 200px;
-        padding: 90px;
-        margin-left: 60px;
       }
   }
 
