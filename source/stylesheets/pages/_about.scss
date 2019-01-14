@@ -43,10 +43,72 @@
   border-top: 8px solid $primary-color;
   padding-top: 30px;
   margin-bottom: 60px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .headers {
   text-align: center;
+  font-weight: bold;
+}
+
+.would-you {
+  text-align: right;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 8px solid $primary-color;
+  padding-right: 30px;
+}
+
+.banner-img {
+  padding-top: 168px;
+  width: 100%;
+  height: 50vw;
+  min-height: 500px;
+  background-image: url("/images/would_you.png");
+  background-size: cover;
+  background-position: left;
+  display:flex;
+  position: relative;
+  z-index: -2;
+}
+
+.banner-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.bottom-left {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  text-align: right;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-logo {
+  height: 80px;
+  width:80px;
+}
+
+.shaped {
+  float:left;
+  height: calc(35vw * 0.726);
+  width:35vw;
+  float:right;
+  background-image: url("/images/cartagena.png");
+  background-size:cover;
+}
+
+.fluid-cont {
+  margin-top: 20px;
+  width: 100vw;
+  overflow: hidden;
+  padding: 0 15vw;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -64,6 +126,7 @@
 @media only screen and (max-width: 992px) {
   .unclas-image {
     margin-top: 128px;
+    min-height: 300px;
   }
   h1 {
     font-size: 22px
@@ -74,6 +137,13 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .fluid-cont {
+    padding: 0 5vw;
+  }
+  .shaped {
+    height: calc(45vw * 0.726);
+    width:45vw;
+  }
   .unclas-image {
     margin-top: 128px;
   }
