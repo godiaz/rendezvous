@@ -5,7 +5,14 @@
     width: 100%;
     height: auto;
     min-height: 900px;
-    background-image: url('https://s3.eu-west-3.amazonaws.com/rendezvoushotel/home-page.png');
+    background-image:
+
+      linear-gradient(
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.05)
+      ),
+
+      url('https://s3.eu-west-3.amazonaws.com/rendezvoushotel/home-page.png');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -33,6 +40,7 @@
       width: 300px;
       font-size: 28px;
       padding: 10px 30px;
+      margin-top: 80px;
       border-radius: 3px;
       text-align: center;
       box-shadow:
@@ -73,7 +81,7 @@
       text-align: right;
 
       & h4 {
-        font-size: 38px;
+        font-size: 48px;
         font-family: 'Open-Sans', sans-serif;
         color: $secondary-color;
         padding: 20px;
