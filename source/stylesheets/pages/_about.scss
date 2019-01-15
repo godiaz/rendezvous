@@ -179,6 +179,21 @@ h1 {
 .lisbon {
   background-image: url("/images/lisbon.png");
 }
+.spacer {
+  display: none;
+  height: 128px;
+  width: 100vw;
+}
+.unclass {
+  width: 100vw;
+  min-height: 332px;
+  height: 50vh;
+  background-image: url("/images/rendezbackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: none;
+  background-position: center;
+}
 
 .fluid-cont {
   margin-top: 20px;
@@ -267,6 +282,16 @@ h1 {
     height: 110px;
     width: 110px;
   }
+  .unclas-image {
+    display:none
+  }
+  .unclass {
+    display: block;
+  }
+  .spacer {
+    display: block;
+  }
+
   .bl-header {
     top: 200px;
     right: 27vw;
