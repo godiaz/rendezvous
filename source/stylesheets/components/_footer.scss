@@ -13,7 +13,7 @@
   }
   &_pink-label {
     position: absolute;
-    bottom: 10%;
+    bottom: 0;
     width: 100%;
     background-color: $primary-color;
   }
@@ -58,9 +58,6 @@
       height: 75px;
       margin-right: 40px;
     }
-    &_pink-label{
-      bottom: 0;
-    }
   }
 }
 
@@ -79,3 +76,41 @@
 
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .hoxton-footer {
+    line-height: 13px;
+    height: 125px;
+    &_logo {
+      height: 50px;
+      width: 50px;
+      margin-left: 10px;
+    }
+    &_right-part {
+      height: 50px;
+      margin-right: 10px;
+    }
+
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  .hoxton-footer {
+    &_right-part {
+      height: 65px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
