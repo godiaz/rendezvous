@@ -15,15 +15,26 @@
     background-color: $primary-color;
   }
   &_logo {
-
+    height: 150px;
+    width: 150px;
   }
   &_right-part {
-
+    height: 150px;
+    display:flex;
+    align-items:top;
+    text-align: right;
+    line-height: 30px;
   }
   &_left-part {
     display:flex;
     align-items:top;
-    height: inherit;
+    height: inherit
   }
 }
 
+.footer-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
